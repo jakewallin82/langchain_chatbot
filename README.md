@@ -8,6 +8,8 @@ OPENAI_API_KEY=YOUR_KEY_HERE
 
 ```
 
+Then start the server:
+
 ```bash
 npm install
 
@@ -23,9 +25,7 @@ REACT_APP_API_URL=http://localhost:5002/
 REACT_APP_BASE_URL=http://localhost:3000/
 ```
 
-# Get running locally
-
-Install dependencies and start up the client
+Install dependencies and then start the client:
 
 ```bash
 npm install
