@@ -35,7 +35,7 @@ export default async (question = "", filePath = "") => {
   const textRes = searchResponse
     .map((item: DocumentInterface<Record<string, any>>) => item?.pageContent)
     .join("\n");
-  const llm = new OpenAI({ modelName: "gpt-4" });
+  const llm = new OpenAI({ modelName: "gpt-4o" });
   const chain = loadQAStuffChain(llm);
 
   const result = await chain.invoke({
